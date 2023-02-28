@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <img src="./assets/img/ordenador-de-sobremesa-la-casa-la-habitacion-10339873.jpg" class="card-img-top"
+                alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Notebook gamer</h5>
+                <form  name="frmCompra" id="frmCompra" onsubmit="return onSubmit(this)">
+                    <div class="m-3 mb-3 row">
+                        <label for="cantidad" id="cantidad" name="name" class="col-form-label">Cantidad</label>
+                        <input type="number" class="form-control" id="cantidad">
+                    </div>
+                    <div class="m-3 mb-3 row">
+                        <label for="color" id="color" name="color" class="col-form-label">color</label>
+                        <input type="text" class="form-control" id="color">
+                    </div>
+                    <p class="card-text" id="card-text"></p>
+                    <button type="submit" class="btn btn-primary w-100" >Enviar</button>
+                </form>
+                <div class="color" id="colour"></div>
+                <p class="res" id="res"></p>
+            </div>
+        </div>
+    </div>
+    <script src="./assets/js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
